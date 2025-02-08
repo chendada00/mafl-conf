@@ -22,8 +22,6 @@ tags:
     color: lime
   - name: 私有部署
     color: indigo
-  - name: 私有部署1
-    color: indigo
 services:
   个人服务:
     - title: 伴随的小站
