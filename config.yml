@@ -449,7 +449,7 @@ services:
       tags:
         - 机场
     - title: IKUUU
-      description: 免费1
+      description: 免费
       link: https://ikuuu.one/auth/register?code=RKiB
       icon:
         name: entypo:aircraft
