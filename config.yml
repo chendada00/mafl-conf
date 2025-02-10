@@ -49,8 +49,6 @@ services:
         enabled: true
         number: 3600
       tags:
-        - name: 个人博客
-          color: violet
         - 私有部署
     - title: 1Panel
       description: 服务器管理面板
@@ -289,6 +287,18 @@ services:
       tags:
         - name: 云存储
           color: cyan
+    - title: 快捷键
+      description: WIN MAC 快捷键大全
+      link: https://ctext.top/9b1f.html
+      icon:
+        name: teenyicons:keyboard-outline
+        wrap: true
+        color: '#08749c'
+      tags:
+        - name: 个人博客
+          color: violet
+        - 私有部署
+
 
   文档:
     - title: Mafl
