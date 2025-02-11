@@ -385,9 +385,6 @@ services:
         wrap: true
         color: '#ff3731'
 
-
-
-
   AI:
     - title: DeepSeek
       description: 探索未至之境
@@ -483,9 +480,8 @@ services:
       description: Python3 在线工具
       link: https://tools.qzxdp.cn/runpy3
       icon:
-        name: hugeicons:python
+        name: logos:python
         wrap: true
-        color: '#3776AB'
       tag:
         - 在线运行代码
 
@@ -493,9 +489,8 @@ services:
       description: Python2 在线工具
       link: https://tools.qzxdp.cn/runpy2
       icon:
-        name: hugeicons:python
+        name: logos:python
         wrap: true
-        color: '#3776AB'
       tag:
         - 在线运行代码
 
@@ -513,7 +508,7 @@ services:
       description: C 在线工具
       link: https://tools.qzxdp.cn/runc
       icon:
-        name: hugeicons:c
+        name: hugeicons:cpp
         wrap: true
         color: '#A8B9CC'
       tag:
@@ -523,19 +518,9 @@ services:
       description: C++ 在线工具
       link: https://tools.qzxdp.cn/runccc
       icon:
-        name: hugeicons:cpp'
+        name: hugeicons:cpp
         wrap: true
         color: '#00599C'
-      tag:
-        - 在线运行代码
-
-    - title: Ruby
-      description: Ruby 在线工具
-      link: https://tools.qzxdp.cn/runruby
-      icon:
-        name: hugeicons:ruby
-        wrap: true
-        color: '#CC342D'
       tag:
         - 在线运行代码
 
@@ -543,9 +528,8 @@ services:
       description: C# 在线工具
       link: https://tools.qzxdp.cn/runnet
       icon:
-        name: hugeicons:c-sharp
+        name: skill-icons:dotnet
         wrap: true
-        color: '#239120'
       tag:
         - 在线运行代码
 
@@ -553,9 +537,8 @@ services:
       description: Bash 在线工具
       link: https://tools.qzxdp.cn/runbash
       icon:
-        name: hugeicons:bash
+        name: devicon:bash
         wrap: true
-        color: '#4EAA25'
       tag:
         - 在线运行代码
 
@@ -563,9 +546,8 @@ services:
       description: Go 在线工具
       link: https://tools.qzxdp.cn/rungo
       icon:
-        name: hugeicons:go
+        name: devicon:go-wordmark
         wrap: true
-        color: '#00ADD8'
       tag:
         - 在线运行代码
 
@@ -573,9 +555,8 @@ services:
       description: Lua 在线工具
       link: https://tools.qzxdp.cn/runlua
       icon:
-        name: hugeicons:lua
+        name: devicon:lua
         wrap: true
-        color: '#000080'
       tag:
         - 在线运行代码
 
@@ -583,9 +564,8 @@ services:
       description: Javascript 在线工具
       link: https://tools.qzxdp.cn/runjs
       icon:
-        name: hugeicons:javascript
+        name: skill-icons:javascript
         wrap: true
-        color: '#F7DF1E'
       tag:
         - 在线运行代码
 
@@ -593,9 +573,8 @@ services:
       description: TypeScript 在线工具
       link: https://tools.qzxdp.cn/runts
       icon:
-        name: hugeicons:typescript
+        name: skill-icons:typescript
         wrap: true
-        color: '#3178C6'
       tag:
         - 在线运行代码
 
