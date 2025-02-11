@@ -27,7 +27,6 @@ if [ "$current_hash" != "$remote_hash" ]; then
     echo "$(date): 正在重启 Docker 容器..."
     docker restart mafl-mafl-1
     echo "$(date): Docker 容器已重启。"
-    sudo chmod +x update.sh
 else
     echo "$(date): 代码未更新，无需同步或重启 Docker 容器。"
 fi
