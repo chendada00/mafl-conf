@@ -22,6 +22,8 @@ tags:
     color: lime
   - name: 私有部署
     color: indigo
+  - name: 小游戏
+    color: cyan
 services:
   个人服务:
     - title: 伴随的小站
@@ -233,6 +235,23 @@ services:
       tags:
         - 文档
 
+  娱乐:
+    - title: 人生重开模拟器
+      description: 在线版人生重开模拟器
+      link: https://liferestart.syaro.io/public/index.html
+      icon:
+        url: https://liferestart.syaro.io/favicon.ico
+        wrap: true
+      tags:
+        - 小游戏
+    - title: 小霸王，其乐无穷
+      description: 小时候的回忆
+      link: https://www.yikm.net/
+      icon:
+        name: streamline-emojis:mushroom
+        wrap: true
+      tags:
+        - 小游戏
 
   AI:
     - title: DeepSeek
