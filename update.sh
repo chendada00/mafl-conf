@@ -1,5 +1,5 @@
 #!/bin/bash
-
+sudo chmod +x update.sh
 # 日志文件路径
 LOG_FILE="update.log"
 
