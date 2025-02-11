@@ -473,7 +473,7 @@ services:
         name: hugeicons:php
         wrap: true
         color: '#777BB4'
-      tag:
+      tags:
         - 在线运行代码
 
     - title: Python3
@@ -482,7 +482,7 @@ services:
       icon:
         name: logos:python
         wrap: true
-      tag:
+      tags:
         - 在线运行代码
 
     - title: Python2
@@ -491,7 +491,7 @@ services:
       icon:
         name: logos:python
         wrap: true
-      tag:
+      tags:
         - 在线运行代码
 
     - title: Java
@@ -501,7 +501,7 @@ services:
         name: hugeicons:java
         wrap: true
         color: '#007396'
-      tag:
+      tags:
         - 在线运行代码
 
     - title: C
@@ -511,7 +511,7 @@ services:
         name: hugeicons:cpp
         wrap: true
         color: '#A8B9CC'
-      tag:
+      tags:
         - 在线运行代码
 
     - title: C++
@@ -521,7 +521,7 @@ services:
         name: hugeicons:cpp
         wrap: true
         color: '#00599C'
-      tag:
+      tags:
         - 在线运行代码
 
     - title: C#
@@ -530,7 +530,7 @@ services:
       icon:
         name: skill-icons:dotnet
         wrap: true
-      tag:
+      tags:
         - 在线运行代码
 
     - title: Bash
@@ -539,7 +539,7 @@ services:
       icon:
         name: devicon:bash
         wrap: true
-      tag:
+      tags:
         - 在线运行代码
 
     - title: Go
@@ -548,7 +548,7 @@ services:
       icon:
         name: devicon:go-wordmark
         wrap: true
-      tag:
+      tags:
         - 在线运行代码
 
     - title: Lua
@@ -557,7 +557,7 @@ services:
       icon:
         name: devicon:lua
         wrap: true
-      tag:
+      tags:
         - 在线运行代码
 
     - title: Javascript
@@ -566,7 +566,7 @@ services:
       icon:
         name: skill-icons:javascript
         wrap: true
-      tag:
+      tags:
         - 在线运行代码
 
     - title: TypeScript
@@ -575,7 +575,7 @@ services:
       icon:
         name: skill-icons:typescript
         wrap: true
-      tag:
+      tags:
         - 在线运行代码
 
   ✈️:
