@@ -24,6 +24,8 @@ tags:
     color: indigo
   - name: 小游戏
     color: cyan
+  - name: 在线运行代码
+    color: pink
 services:
   个人服务:
     - title: 伴随的小站
@@ -301,7 +303,6 @@ services:
           color: violet
         - 私有部署
 
-
   文档:
     - title: Mafl
       description: 本网站的文档
@@ -353,7 +354,7 @@ services:
       description: 在线版人生重开模拟器
       link: https://liferestart.syaro.io/public/index.html
       icon:
-        url: https://liferestart.syaro.io/favicon.ico
+        name: fluent-color:people-team-20
         wrap: true
       tags:
         - 小游戏
@@ -365,6 +366,27 @@ services:
         wrap: true
       tags:
         - 小游戏
+    - title: 球归色条
+      description: 考验反应力
+      link: www.looptap.top
+      icon:
+        name: line-md:circle-twotone
+        wrap: true
+        color: '#ef5764'
+      tags:
+        - 小游戏
+
+  在线工具:
+    - title: 文件转换器
+      description: 全能格式转换
+      link: https://convertio.co/zh/
+      icon:
+        name: simple-icons:convertio
+        wrap: true
+        color: '#ff3731'
+
+
+
 
   AI:
     - title: DeepSeek
@@ -427,9 +449,6 @@ services:
         - AI
         - 视频生成
 
-
-
-
   服务:
     - type: openweathermap
       options:
@@ -448,6 +467,137 @@ services:
         name: oui:token-ip
       tags:
         - 服务
+
+  在线编译器:
+    - title: PHP
+      description: PHP 在线工具
+      link: https://tools.qzxdp.cn/runphp
+      icon:
+        name: hugeicons:php
+        wrap: true
+        color: '#777BB4'
+      tag:
+        - 在线运行代码
+
+    - title: Python3
+      description: Python3 在线工具
+      link: https://tools.qzxdp.cn/runpy3
+      icon:
+        name: hugeicons:python
+        wrap: true
+        color: '#3776AB'
+      tag:
+        - 在线运行代码
+
+    - title: Python2
+      description: Python2 在线工具
+      link: https://tools.qzxdp.cn/runpy2
+      icon:
+        name: hugeicons:python
+        wrap: true
+        color: '#3776AB'
+      tag:
+        - 在线运行代码
+
+    - title: Java
+      description: Java 在线工具
+      link: https://tools.qzxdp.cn/runjava
+      icon:
+        name: hugeicons:java
+        wrap: true
+        color: '#007396'
+      tag:
+        - 在线运行代码
+
+    - title: C
+      description: C 在线工具
+      link: https://tools.qzxdp.cn/runc
+      icon:
+        name: hugeicons:c
+        wrap: true
+        color: '#A8B9CC'
+      tag:
+        - 在线运行代码
+
+    - title: C++
+      description: C++ 在线工具
+      link: https://tools.qzxdp.cn/runccc
+      icon:
+        name: hugeicons:cpp'
+        wrap: true
+        color: '#00599C'
+      tag:
+        - 在线运行代码
+
+    - title: Ruby
+      description: Ruby 在线工具
+      link: https://tools.qzxdp.cn/runruby
+      icon:
+        name: hugeicons:ruby
+        wrap: true
+        color: '#CC342D'
+      tag:
+        - 在线运行代码
+
+    - title: C#
+      description: C# 在线工具
+      link: https://tools.qzxdp.cn/runnet
+      icon:
+        name: hugeicons:c-sharp
+        wrap: true
+        color: '#239120'
+      tag:
+        - 在线运行代码
+
+    - title: Bash
+      description: Bash 在线工具
+      link: https://tools.qzxdp.cn/runbash
+      icon:
+        name: hugeicons:bash
+        wrap: true
+        color: '#4EAA25'
+      tag:
+        - 在线运行代码
+
+    - title: Go
+      description: Go 在线工具
+      link: https://tools.qzxdp.cn/rungo
+      icon:
+        name: hugeicons:go
+        wrap: true
+        color: '#00ADD8'
+      tag:
+        - 在线运行代码
+
+    - title: Lua
+      description: Lua 在线工具
+      link: https://tools.qzxdp.cn/runlua
+      icon:
+        name: hugeicons:lua
+        wrap: true
+        color: '#000080'
+      tag:
+        - 在线运行代码
+
+    - title: Javascript
+      description: Javascript 在线工具
+      link: https://tools.qzxdp.cn/runjs
+      icon:
+        name: hugeicons:javascript
+        wrap: true
+        color: '#F7DF1E'
+      tag:
+        - 在线运行代码
+
+    - title: TypeScript
+      description: TypeScript 在线工具
+      link: https://tools.qzxdp.cn/runts
+      icon:
+        name: hugeicons:typescript
+        wrap: true
+        color: '#3178C6'
+      tag:
+        - 在线运行代码
 
   ✈️:
     - title: 三分
