@@ -1,4 +1,4 @@
-title: 伴随de个人导航站
+title: 伴随の个人导航站
 theme: dark
 lang: zh
 tags:
@@ -28,11 +28,22 @@ tags:
     color: pink
 services:
   个人服务:
-    - title: 伴随的小站
+    - title: 我の主页
+      description: 个人主页
+      link: https://home.ctext.top/
+      icon:
+        url: https://up.ctext.top/avatar.png
+        wrap: true
+      status:
+        enabled: true
+        number: 3600
+      tags:
+        - 私有部署
+    - title: 伴随の小站
       description: 个人博客
       link: https://ctext.top/
       icon:
-        url: https://up.ctext.top/avatar.png
+        url: https://up.ctext.top/favicon.svg
         wrap: true
       status:
         enabled: true
@@ -167,6 +178,19 @@ services:
           color: emerald
         - 私有部署
 
+    - title: LobeChat
+      description: 现代化设计的开源 ChatGPT/LLMs 聊天应用与开发框架
+      link: https://chat.ctext.top/
+      icon:
+        url: https://chat.ctext.top/favicon.ico?v=1
+        wrap: true
+      status:
+        enabled: true
+        number: 3600
+      tags:
+        - 私有部署
+        - AI
+
   开发工具:
 
     - title: Vercel
@@ -221,6 +245,16 @@ services:
           color: rose
 
   常用网站:
+
+    - title: Sealos
+      description: 云操作系统
+      link: https://gzg.sealos.run/
+      icon:
+        url: https://up.ctext.top/mafl/sealos.svg
+      tags:
+        - name: 服务器
+
+
     - title: z-lib
       description: 书籍下载
       link: https://z-lib.io/
@@ -350,6 +384,15 @@ services:
         - 文档
 
   娱乐:
+    - title: 资源避难所
+      description: 公益性的游戏分享网站
+      link: https://www.flysheep6.com/
+      icon:
+        name: noto:video-game
+        wrap: true
+      tags:
+        - name: 破解
+          color: violet
     - title: 人生重开模拟器
       description: 在线版人生重开模拟器
       link: https://liferestart.syaro.io/public/index.html
@@ -376,6 +419,16 @@ services:
       tags:
         - 小游戏
 
+    - title: 大佬论坛
+      description: 十年之约交流论坛
+      link: https://www.dalao.net/
+      icon:
+        name: fxemoji:smiletongue
+        wrap: true
+      tags:
+        - name: 论坛
+          color: rose
+
   在线工具:
     - title: 文件转换器
       description: 全能格式转换
@@ -390,10 +443,9 @@ services:
       description: 探索未至之境
       link: https://chat.deepseek.com/
       icon:
-        url: https://up.ctext.top/nav/deepseek.ico
+        name: arcticons:deepseek
         wrap: true
-#        color: '#000000'
-#        background: '#ffffff'
+        color: '#4d6bfe'
       tags:
         - AI
     - title: ChatGPT
@@ -508,7 +560,7 @@ services:
       description: C 在线工具
       link: https://tools.qzxdp.cn/runc
       icon:
-        name: hugeicons:cpp
+        name: tabler:brand-cpp
         wrap: true
         color: '#A8B9CC'
       tags:
@@ -518,7 +570,7 @@ services:
       description: C++ 在线工具
       link: https://tools.qzxdp.cn/runccc
       icon:
-        name: hugeicons:cpp
+        name: tabler:brand-cpp
         wrap: true
         color: '#00599C'
       tags:
@@ -539,6 +591,7 @@ services:
       icon:
         name: devicon:bash
         wrap: true
+        color: '#288ec8'
       tags:
         - 在线运行代码
 
