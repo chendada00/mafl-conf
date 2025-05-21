@@ -26,6 +26,8 @@ tags:
     color: cyan
   - name: 在线运行代码
     color: pink
+  - name: 影音
+    color: lime
 services:
   个人服务:
     - title: 我の主页
@@ -190,7 +192,15 @@ services:
       tags:
         - 私有部署
         - AI
-
+  影音:
+    - title: LibreTV
+      description: 免费在线视频搜索与观看平台
+      link: https://tv.ctext.top/
+      icon:
+        name: icon-park:tv-one
+        wrap: true
+      tags:
+        - 影音
   开发工具:
 
     - title: Vercel
