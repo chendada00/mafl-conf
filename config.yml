@@ -232,7 +232,8 @@ services:
       description: 云操作系统，5$免费额度
       link: heu-central-1.run.claw.cloud
       icon:
-        url: https://up.ctext.top/mafl/ClawCloud.svg
+        name: fluent:animal-paw-print-48-regular
+        wrap: true
       tags:
         - name: 服务器
 
