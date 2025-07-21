@@ -34,7 +34,7 @@ services:
       description: 个人主页
       link: https://home.ctext.top/
       icon:
-        url: https://up.ctext.top/avatar.png
+        url: https://up.ctext.top/mafl/avatar.png
         wrap: true
       status:
         enabled: true
@@ -43,9 +43,9 @@ services:
         - 私有部署
     - title: 伴随の小站
       description: 个人博客
-      link: https://ctext.top/
+      link: https://blog.ctext.top/
       icon:
-        url: https://up.ctext.top/favicon.svg
+        url: https://up.ctext.top/mafl/favicon.svg
         wrap: true
       status:
         enabled: true
@@ -80,35 +80,60 @@ services:
     #   tags:
     #     - 服务器
     #     - 私有部署
+    - title: 宝塔
+      description: 服务器管理面板
+      link: https://bt.ctext.top/admin
+      icon:
+        url : https://up.ctext.top/mafl/bt.ico
+        wrap: true
+        color: '#2b74df'
+      status:
+        enabled: true
+        number: 3600
+      tags:
+        - 服务器
+        - 私有部署
 
+    - title: 哪吒监控
+      description: 服务器监控
+      link: https://nezha.ctext.top/
+      icon:
+        url : https://up.ctext.top/mafl/nezha.svg
+        wrap: true
+      status:
+        enabled: true
+        number: 3600
+      tags:
+        - 服务器
+        - 私有部署
     # - title: Alist
-    #   description: 一个支持多种存储的文件列表
-    #   link: https://alist.ctext.top
-    #   icon:
-    #     name: i-arcticons:alist
-    #     wrap: true
-    #     color: '#7bcac3'
-    #   status:
-    #     enabled: true
-    #     number: 3600
-    #   tags:
-    #     - 文件管理
-    #     - 私有部署
+      # description: 一个支持多种存储的文件列表
+      # link: https://alist.ctext.top
+      # icon:
+      #   name: i-arcticons:alist
+      #   wrap: true
+      #   color: '#7bcac3'
+      # status:
+      #   enabled: true
+      #   number: 3600
+      # tags:
+      #   - 文件管理
+      #   - 私有部署
 
 
     # - title: FileCodeBox
-    #   description: 文件快递柜
-    #   link: https://share.ctext.top/
-    #   icon:
-    #     name: line-md:file-plus-twotone
-    #     wrap: true
-    #     color: '#45c9ff'
-    #   status:
-    #     enabled: true
-    #     number: 3600
-    #   tags:
-    #     - 文件管理
-    #     - 私有部署
+      # description: 文件快递柜
+      # link: https://file.ctext.top/
+      # icon:
+      #   name: line-md:file-plus-twotone
+      #   wrap: true
+      #   color: '#45c9ff'
+      # status:
+      #   enabled: true
+      #   number: 3600
+      # tags:
+      #   - 文件管理
+      #   - 私有部署
 
     # - title: Code-Server
     #   description: VSCode在线版
@@ -140,7 +165,7 @@ services:
 
     # - title: 青龙
     #   description: 定时任务管理平台
-    #   link: https://cql.ctext.top
+    #   link: https://ql.ctext.top
     #   icon:
     #     name: i-openmoji:dragon-face
     #     wrap: true
@@ -148,9 +173,9 @@ services:
     #     enabled: true
     #     number: 3600
     #   tags:
-    #     - name: Cron
-    #       color: emerald
-    #     - 私有部署
+        # - name: Cron
+        #   color: emerald
+        # - 私有部署
     # - title: AriaNG
     #   description: 离线下载
     #   link: https://ng.ctext.top/
@@ -165,35 +190,51 @@ services:
     #     - name: 下载
     #       color: violet
     #     - 私有部署
-    # - title: 每日壁纸
-    #   description: 必应每日一图
-    #   link: https://bing.ctext.top/
-    #   icon:
-    #     name: lucide:wallpaper
-    #     wrap: true
-    #     color: '#ccaeac'
-    #   status:
-    #     enabled: true
-    #     number: 3600
-    #   tags:
-    #     - name: 壁纸
-    #       color: emerald
-    #     - 私有部署
-
-    - title: LobeChat
-      description: 现代化设计的开源 ChatGPT/LLMs 聊天应用与开发框架
-      link: https://chat.ctext.top/
+    - title: 每日壁纸
+      description: 必应每日一图
+      link: https://bing.ctext.top/
       icon:
-        url: https://chat.ctext.top/favicon.ico?v=1
+        name: lucide:wallpaper
         wrap: true
+        color: '#ccaeac'
       status:
         enabled: true
         number: 3600
       tags:
+        - name: 壁纸
+          color: emerald
         - 私有部署
-        - AI
+
+    # - title: LobeChat
+    #   description: 现代化设计的开源 ChatGPT/LLMs 聊天应用与开发框架
+    #   link: https://chat.ctext.top/
+    #   icon:
+    #     url: https://chat.ctext.top/favicon.ico?v=1
+    #     wrap: true
+    #   status:
+    #     enabled: true
+    #     number: 3600
+    #   tags:
+    #     - 私有部署
+    #     - AI
+    - title: 今日热榜
+      description: 各平台热榜聚合
+      link: https://hot.ctext.top/
+      icon:
+        name: noto:fire
+        wrap: true
+      tags:
+        - 私有部署
 
   常用网站:
+
+    - title: ClawCloud Run
+      description: 云操作系统，5$免费额度
+      link: heu-central-1.run.claw.cloud
+      icon:
+        url: https://up.ctext.top/mafl/ClawCloud.svg
+      tags:
+        - name: 服务器
 
     - title: Sealos
       description: 云操作系统
@@ -296,6 +337,17 @@ services:
         - name: 个人博客
           color: violet
         - 私有部署
+    - title: 快捷键
+      description: IDEA 快捷键
+      link: https://ctext.top/dfd4.html
+      icon:
+        name: skill-icons:idea-light
+        wrap: true
+      tags:
+        - name: 个人博客
+          color: violet
+        - 私有部署
+
 
 
   影音:
@@ -307,9 +359,19 @@ services:
         wrap: true
       tags:
         - 影音
-
+        - 私有部署
 
   开发工具:
+
+    - title: httpsok
+      description: 免费https证书
+      link: https://httpsok.com/console/cert
+      icon:
+        url: https://httpsok.com/favicon.ico
+        wrap: true
+      tags:
+        - name: 网站证书
+          color: cyan
     - title: Vercel
       description: 一个云平台,用于构建、部署和扩展无服务器应用程序和静态网站
       link: https://vercel.com/
@@ -319,7 +381,15 @@ services:
       tags:
         - name: 静态网站部署
           color: lime
-
+    - title: kinsta
+      description: 和Vercel类似
+      link: https://my.kinsta.com/
+      icon:
+        url: https://up.ctext.top/mafl/kinsta.ico
+        wrap: true
+      tags:
+        - name: 静态网站部署
+          color: lime
     - title: IT-TOOLS
       description: IT工具集
       link: https://tools.ctext.top/
@@ -361,12 +431,44 @@ services:
         - name: 图标库
           color: rose
 
+    - title: mafl在线修改
+      description: GitHub仓库
+      link: https://github.dev/chendada00/mafl
+      icon:
+        name: i-line-md:github-loop
+        wrap: true
+      tags:
+        - GitHub
+
+  
+    - title: GitHub加速
+      description: GitHub加速
+      link: https://gh-proxy.com/
+      icon:
+        name: i-line-md:github-loop
+        wrap: true
+      tags:
+        - GitHub
+
+    - title: JSONBin
+      description: JSONBin.io提供了一个简单的 REST 接口，用于在云端存储和检索 JSON 数据
+      link: https://jsonbin.io/app/bins
+      icon:
+        name: picon:json
+        wrap: true
+        color: "#2c6dee"
+      tags:
+        - name: 接口
+          color: lime
+
+
+  
   文档:
     - title: Mafl
       description: 本网站的文档
       link: https://mafl.hywax.space/
       icon:
-        url: https://mafl.hywax.space/logotype.svg
+        url: https://up.ctext.top/mafl/mafl.svg
         wrap: true
       tags:
         - 文档
@@ -408,6 +510,16 @@ services:
         - 文档
 
   娱乐:
+    - title: QQ飞车
+      description: 补丁下载
+      link: https://speed.qq.com/web201503/page/download.shtml#patch_area
+      icon:
+        url: https://up.ctext.top/mafl/qqfeiche.ico
+        wrap: true
+      tags:
+        - name: 游戏
+          color: violet
+
     - title: 资源避难所
       description: 公益性的游戏分享网站
       link: https://www.flysheep6.com/
