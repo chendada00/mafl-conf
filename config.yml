@@ -32,9 +32,9 @@ services:
   个人服务:
     - title: 我の主页
       description: 个人主页
-      link: https://home.ctext.top/
+      link: https://home.伴随.cn
       icon:
-        url: https://up.ctext.top/mafl/avatar.png
+        url: /mafl/avatar.png
         wrap: true
       status:
         enabled: true
@@ -43,9 +43,9 @@ services:
         - 私有部署
     - title: 伴随の小站
       description: 个人博客
-      link: https://blog.ctext.top/
+      link: https://blog.伴随.cn
       icon:
-        url: https://up.ctext.top/mafl/favicon.svg
+        url: /mafl/favicon.svg
         wrap: true
       status:
         enabled: true
@@ -57,7 +57,7 @@ services:
 
     - title: 渐变图片
       description: 用于生成博客主图
-      link: https://gc.ctext.top
+      link: https://gc.伴随.cn
       icon:
         name: i-mdi:color
         wrap: true
@@ -84,7 +84,7 @@ services:
       description: 服务器管理面板
       link: https://bt.ctext.top/admin
       icon:
-        url : https://up.ctext.top/mafl/bt.ico
+        url : /mafl/bt.ico
         wrap: true
         color: '#2b74df'
       status:
@@ -98,7 +98,7 @@ services:
       description: 服务器监控
       link: https://nezha.ctext.top/
       icon:
-        url : https://up.ctext.top/mafl/nezha.svg
+        url : /mafl/nezha.svg
         wrap: true
       status:
         enabled: true
@@ -219,7 +219,7 @@ services:
     #     - AI
     - title: 今日热榜
       description: 各平台热榜聚合
-      link: https://hot.ctext.top/
+      link: https://hot.伴随.cn
       icon:
         name: noto:fire
         wrap: true
@@ -230,7 +230,7 @@ services:
 
     - title: ClawCloud Run
       description: 云操作系统，5$免费额度
-      link: heu-central-1.run.claw.cloud
+      link: https://eu-central-1.run.claw.cloud
       icon:
         name: fluent:animal-paw-print-48-regular
         wrap: true
@@ -241,7 +241,7 @@ services:
       description: 云操作系统
       link: https://gzg.sealos.run/
       icon:
-        url: https://up.ctext.top/mafl/sealos.svg
+        url: /mafl/sealos.svg
       tags:
         - name: 服务器
 
@@ -329,7 +329,7 @@ services:
           color: cyan
     - title: 快捷键
       description: WIN MAC 快捷键大全
-      link: https://ctext.top/9b1f.html
+      link: https://blog.伴随.cn/9b1f.html
       icon:
         name: teenyicons:keyboard-outline
         wrap: true
@@ -340,7 +340,7 @@ services:
         - 私有部署
     - title: 快捷键
       description: IDEA 快捷键
-      link: https://ctext.top/dfd4.html
+      link: https://blog.伴随.cn/dfd4.html
       icon:
         name: skill-icons:idea-light
         wrap: true
@@ -349,12 +349,10 @@ services:
           color: violet
         - 私有部署
 
-
-
   影音:
     - title: LibreTV
       description: 免费在线视频搜索与观看平台
-      link: https://tv.ctext.top/
+      link: https://tv.伴随.cn
       icon:
         name: icon-park:tv-one
         wrap: true
@@ -364,15 +362,15 @@ services:
 
   开发工具:
 
-    - title: httpsok
-      description: 免费https证书
-      link: https://httpsok.com/console/cert
-      icon:
-        url: https://httpsok.com/favicon.ico
-        wrap: true
-      tags:
-        - name: 网站证书
-          color: cyan
+    # - title: httpsok
+    #   description: 免费https证书
+    #   link: https://httpsok.com/console/cert
+    #   icon:
+    #     url: https://httpsok.com/favicon.ico
+    #     wrap: true
+    #   tags:
+    #     - name: 网站证书
+    #       color: cyan
     - title: Vercel
       description: 一个云平台,用于构建、部署和扩展无服务器应用程序和静态网站
       link: https://vercel.com/
@@ -386,14 +384,14 @@ services:
       description: 和Vercel类似
       link: https://my.kinsta.com/
       icon:
-        url: https://up.ctext.top/mafl/kinsta.ico
+        url: /mafl/kinsta.ico
         wrap: true
       tags:
         - name: 静态网站部署
           color: lime
     - title: IT-TOOLS
       description: IT工具集
-      link: https://tools.ctext.top/
+      link: https://tools.伴随.cn
       icon:
         name: mynaui:tool
         wrap: true
@@ -402,7 +400,7 @@ services:
         - 私有部署
     - title: Simple mind map
       description: 一个简单强大的 Web 思维导图
-      link: https://mind.ctext.top/
+      link: https://mind.伴随.cn
       icon:
         name: i-icon-park-outline:mind-mapping
         wrap: true
@@ -434,7 +432,8 @@ services:
 
     - title: mafl在线修改
       description: GitHub仓库
-      link: https://github.dev/chendada00/mafl-conf/
+      # link: https://github.dev/chendada00/mafl-conf/
+      link: https://github.dev/chendada00/mafl
       icon:
         name: i-line-md:github-loop
         wrap: true
@@ -462,14 +461,24 @@ services:
         - name: 接口
           color: lime
 
+  远程控制:
+    - title: AirDroid
+      description: 安卓手机远程控制网页端
+      link: https://web.airdroid.com/
+      icon:
+        name: arcticons:airdroid
+        wrap: true
+        color: "#f47a90"
+      tags:
+        - name: 远程控制
+          color: purple
 
-  
   文档:
     - title: Mafl
       description: 本网站的文档
       link: https://mafl.hywax.space/
       icon:
-        url: https://up.ctext.top/mafl/mafl.svg
+        url: /mafl/mafl.svg
         wrap: true
       tags:
         - 文档
@@ -515,7 +524,7 @@ services:
       description: 补丁下载
       link: https://speed.qq.com/web201503/page/download.shtml#patch_area
       icon:
-        url: https://up.ctext.top/mafl/qqfeiche.ico
+        url: /mafl/qqfeiche.ico
         wrap: true
       tags:
         - name: 游戏
@@ -805,6 +814,19 @@ services:
         color: '#7c6d53'
       tags:
         - 机场
+
+  游戏:
+    飞车:
+      - title: QQ飞车
+        description: 补丁下载
+        link: https://speed.qq.com/web201503/page/download.shtml#patch_area
+        icon:
+          url: /mafl/qqfeiche.ico
+          wrap: true
+        tags:
+          - name: 游戏
+            color: violet
+
 #amber: 琥珀色（带有金黄色调的黄色）
 #orange: 橙色（鲜艳的橙色）
 #yellow: 黄色（基本的黄色）
