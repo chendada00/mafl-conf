@@ -432,8 +432,8 @@ services:
 
     - title: mafl在线修改
       description: GitHub仓库
-      # link: https://github.dev/chendada00/mafl-conf/
-      link: https://github.dev/chendada00/mafl
+      link: https://github.dev/chendada00/mafl-conf/
+      # link: https://github.dev/chendada00/mafl
       icon:
         name: i-line-md:github-loop
         wrap: true
@@ -583,6 +583,44 @@ services:
         name: simple-icons:convertio
         wrap: true
         color: '#ff3731'
+
+  飞车:
+    - title: QQ飞车
+      description: 补丁下载
+      link: https://speed.qq.com/web201503/page/download.shtml#patch_area
+      icon:
+        url: /mafl/qqfeiche.ico
+        wrap: true
+      tags:
+        - name: 游戏
+          color: violet
+    - title: 阿千游戏
+      description: 买卖账号
+      link: https://aqianyouxi.com/
+      icon:
+        url: /mafl/aqian.jpg
+        wrap: true
+      tags:
+        - name: 账号出售
+          color: cyan
+    - title: 桃小黑
+      description: 买卖账号
+      link: https://txhds.com/
+      icon:
+        url: /mafl/txh.ico
+        wrap: true
+      tags:
+        - name: 账号出售
+          color: cyan
+    - title: 螃蟹
+      description: 买卖账号
+      link: https://www.pxb7.com/
+      icon:
+        url: /mafl/pangxie.ico
+        wrap: true
+      tags:
+        - name: 账号出售
+          color: cyan
 
   AI:
     - title: DeepSeek
@@ -814,18 +852,6 @@ services:
         color: '#7c6d53'
       tags:
         - 机场
-
-  游戏:
-    飞车:
-      - title: QQ飞车
-        description: 补丁下载
-        link: https://speed.qq.com/web201503/page/download.shtml#patch_area
-        icon:
-          url: /mafl/qqfeiche.ico
-          wrap: true
-        tags:
-          - name: 游戏
-            color: violet
 
 #amber: 琥珀色（带有金黄色调的黄色）
 #orange: 橙色（鲜艳的橙色）
