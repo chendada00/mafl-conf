@@ -520,16 +520,6 @@ services:
         - 文档
 
   娱乐:
-    - title: QQ飞车
-      description: 补丁下载
-      link: https://speed.qq.com/web201503/page/download.shtml#patch_area
-      icon:
-        url: /mafl/qqfeiche.ico
-        wrap: true
-      tags:
-        - name: 游戏
-          color: violet
-
     - title: 资源避难所
       description: 公益性的游戏分享网站
       link: https://www.flysheep6.com/
