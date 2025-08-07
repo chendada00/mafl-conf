@@ -29,12 +29,13 @@ tags:
   - name: 影音
     color: lime
 services:
+
   个人服务:
     - title: 我の主页
       description: 个人主页
       link: https://home.伴随.cn
       icon:
-        url: /mafl/avatar.png
+        url: https://raw.githubusercontent.com/chendada00/mafl-conf/refs/heads/main/mafl/avatar.png
         wrap: true
       status:
         enabled: true
@@ -45,7 +46,7 @@ services:
       description: 个人博客
       link: https://blog.伴随.cn
       icon:
-        url: /mafl/favicon.svg
+        url: https://raw.githubusercontent.com/chendada00/mafl-conf/refs/heads/main/mafl/favicon.svg
         wrap: true
       status:
         enabled: true
@@ -84,7 +85,7 @@ services:
       description: 服务器管理面板
       link: https://bt.ctext.top/admin
       icon:
-        url : /mafl/bt.ico
+        url : https://raw.githubusercontent.com/chendada00/mafl-conf/refs/heads/main/mafl/bt.ico
         wrap: true
         color: '#2b74df'
       status:
@@ -98,7 +99,7 @@ services:
       description: 服务器监控
       link: https://nezha.ctext.top/
       icon:
-        url : /mafl/nezha.svg
+        url : https://raw.githubusercontent.com/chendada00/mafl-conf/refs/heads/main/mafl/nezha.svg
         wrap: true
       status:
         enabled: true
@@ -241,7 +242,7 @@ services:
       description: 云操作系统
       link: https://gzg.sealos.run/
       icon:
-        url: /mafl/sealos.svg
+        url: https://raw.githubusercontent.com/chendada00/mafl-conf/refs/heads/main/mafl/sealos.svg
       tags:
         - name: 服务器
 
@@ -384,7 +385,7 @@ services:
       description: 和Vercel类似
       link: https://my.kinsta.com/
       icon:
-        url: /mafl/kinsta.ico
+        url: https://raw.githubusercontent.com/chendada00/mafl-conf/refs/heads/main/mafl/kinsta.ico
         wrap: true
       tags:
         - name: 静态网站部署
@@ -478,7 +479,7 @@ services:
       description: 本网站的文档
       link: https://mafl.hywax.space/
       icon:
-        url: /mafl/mafl.svg
+        url: https://raw.githubusercontent.com/chendada00/mafl-conf/refs/heads/main/mafl/mafl.svg
         wrap: true
       tags:
         - 文档
@@ -579,7 +580,7 @@ services:
       description: 补丁下载
       link: https://speed.qq.com/web201503/page/download.shtml#patch_area
       icon:
-        url: /mafl/qqfeiche.ico
+        url: https://raw.githubusercontent.com/chendada00/mafl-conf/refs/heads/main/mafl/qqfeiche.ico
         wrap: true
       tags:
         - name: 游戏
@@ -588,7 +589,7 @@ services:
       description: 买卖账号
       link: https://aqianyouxi.com/
       icon:
-        url: /mafl/aqian.jpg
+        url: https://raw.githubusercontent.com/chendada00/mafl-conf/refs/heads/main/mafl/aqian.jpg
         wrap: true
       tags:
         - name: 账号出售
@@ -597,7 +598,7 @@ services:
       description: 买卖账号
       link: https://txhds.com/
       icon:
-        url: /mafl/txh.ico
+        url: https://raw.githubusercontent.com/chendada00/mafl-conf/refs/heads/main/mafl/txh.ico
         wrap: true
       tags:
         - name: 账号出售
@@ -606,7 +607,7 @@ services:
       description: 买卖账号
       link: https://www.pxb7.com/
       icon:
-        url: /mafl/pangxie.ico
+        url: https://raw.githubusercontent.com/chendada00/mafl-conf/refs/heads/main/mafl/pangxie.ico
         wrap: true
       tags:
         - name: 账号出售
