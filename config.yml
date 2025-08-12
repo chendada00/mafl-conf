@@ -614,6 +614,14 @@ services:
           color: cyan
 
   AI:
+    - title: Grok
+      description: Grok is your cosmic guide
+      link: https://grok.com/
+      icon:
+        url: https://raw.githubusercontent.com/chendada00/mafl-conf/refs/heads/main/mafl/grok.svg
+        wrap: true
+      tags:
+        - AI
     - title: DeepSeek
       description: 探索未至之境
       link: https://chat.deepseek.com/
