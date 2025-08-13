@@ -852,32 +852,6 @@ services:
         color: '#7c6d53'
       tags:
         - 机场
-  测试:
-    Services:
-      - title: Home Assistant
-        description: Home automation
-        link: https://home-assistant.home.local/
-        icon:
-          name: simple-icons:homeassistant
-          wrap: true
-          color: '#3dbcf3'
-        status:
-          enabled: true
-    Devices:
-      - title: Router
-        description: Keenetic Peak
-        link: http://192.168.1.1/
-        icon:
-          name: mdi:router-network
-          wrap: true
-      - title: NAS
-        description: Synology DS223
-        link: https://nas.home.local/
-        icon:
-          name: mdi:nas
-          wrap: true
-        status:
-          enabled: tru
 #amber: 琥珀色（带有金黄色调的黄色）
 #orange: 橙色（鲜艳的橙色）
 #yellow: 黄色（基本的黄色）
