@@ -349,6 +349,16 @@ services:
         - name: 个人博客
           color: violet
         - 私有部署
+        
+    - title: tampermonkey
+      description: 油猴脚本
+      link: https://greasyfork.org/zh-CN/scripts
+      icon:
+        name: simple-icons:tampermonkey
+        wrap: true
+      tags:
+        - name: 脚本
+          color: indigo
 
   影音:
     - title: LibreTV
