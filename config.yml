@@ -1,4 +1,4 @@
-title: 伴随の个人导航站
+title: 伴随的个人导航站
 theme: dark
 lang: zh
 tags:
@@ -18,50 +18,20 @@ tags:
     color: sky
   - name: GitHub
     color: rose
-  - name: 代理服务
-    color: lime
+  - name: 机场
+    color: cyan
   - name: 私有部署
     color: indigo
   - name: 小游戏
-    color: cyan
+    color: yellow
   - name: 在线运行代码
-    color: pink
+    color: orange
   - name: 影音
-    color: lime
-  - name: 格式转换
-    color: cyan
-  - name: 数据存储
-    color: emerald
-  - name: 书籍
-    color: rose
-  - name: 应用商店
-    color: lime
-  - name: 网络
-    color: cyan
-  - name: 个人博客
-    color: violet
-  - name: 脚本
-    color: indigo
-  - name: 静态网站部署
-    color: lime
-  - name: 图标库
-    color: rose
-  - name: 接口
-    color: lime
-  - name: 远程控制
-    color: purple
-  - name: 破解
-    color: violet
-  - name: 论坛
-    color: rose
-  - name: 游戏
-    color: violet
-  - name: 游戏账号
-    color: cyan
+    color: fuchsia
 services:
   个人服务:
-    - title: 我の主页
-      description: 个人主页
+    - title: 我的主页
+      description: 个人专属主页，展示个性与创意
       link: https://home.伴随.cn
       icon:
         url: https://raw.githubusercontent.com/chendada00/mafl-conf/refs/heads/main/mafl/avatar.png
@@ -71,8 +41,8 @@ services:
         number: 3600
       tags:
         - 私有部署
-    - title: 伴随の小站
-      description: 个人博客
+    - title: 伴随小站
+      description: 个人博客，记录生活与技术点滴
       link: https://blog.伴随.cn
       icon:
         url: https://raw.githubusercontent.com/chendada00/mafl-conf/refs/heads/main/mafl/favicon.svg
@@ -84,8 +54,8 @@ services:
         - name: 个人博客
           color: violet
         - 私有部署
-    - title: 渐变图片
-      description: 用于生成博客主图
+    - title: 渐变图生成
+      description: 为博客生成精美主图
       link: https://gc.伴随.cn
       icon:
         name: i-mdi:color
@@ -96,8 +66,8 @@ services:
         number: 3600
       tags:
         - 私有部署
-    - title: 宝塔
-      description: 服务器管理面板
+    - title: 宝塔面板
+      description: 高效的服务器管理工具
       link: https://bt.ctext.top/admin
       icon:
         url: https://raw.githubusercontent.com/chendada00/mafl-conf/refs/heads/main/mafl/bt.ico
@@ -109,8 +79,8 @@ services:
       tags:
         - 服务器
         - 私有部署
-    - title: 哪吒监控
-      description: 服务器监控
+    - title: 哪吒探针
+      description: 实时监控服务器状态
       link: https://nezha.ctext.top/
       icon:
         url: https://raw.githubusercontent.com/chendada00/mafl-conf/refs/heads/main/mafl/nezha.svg
@@ -122,7 +92,7 @@ services:
         - 服务器
         - 私有部署
     - title: 每日壁纸
-      description: 必应每日一图
+      description: 每日精选必应高清壁纸
       link: https://bing.ctext.top/
       icon:
         name: lucide:wallpaper
@@ -136,29 +106,68 @@ services:
           color: emerald
         - 私有部署
     - title: 今日热榜
-      description: 各平台热榜聚合
+      description: 聚合各大平台热门资讯
       link: https://hot.伴随.cn
       icon:
         name: noto:fire
         wrap: true
       tags:
         - 私有部署
-  云服务与管理:
-    - title: ClawCloud Run
-      description: 云操作系统，提供5美元免费额度
+  常用网站:
+    - title: ClawCloud 运行
+      description: 云操作系统，享5$免费额度
       link: https://eu-central-1.run.claw.cloud
       icon:
         name: fluent:animal-paw-print-48-regular
         wrap: true
       tags:
         - 服务器
-    - title: Sealos
-      description: 高效的云操作系统，简化部署
+    - title: Sealos 云
+      description: 高效云操作系统平台
       link: https://gzg.sealos.run/
       icon:
         url: https://raw.githubusercontent.com/chendada00/mafl-conf/refs/heads/main/mafl/sealos.svg
       tags:
         - 服务器
+    - title: 路由器管理
+      description: LTE路由器后台管理
+      link: http://192.168.2.1/
+      icon:
+        name: line-md:square
+        wrap: true
+        color: '#00bb9e'
+      tags:
+        - name: LTE
+          color: green
+    - title: Z-Library
+      description: 海量电子书下载平台
+      link: https://z-lib.io/
+      icon:
+        name: mdi:library-outline
+        wrap: true
+        color: '#4bafcf'
+      tags:
+        - name: 书籍
+          color: amber
+    - title: Sakura FRP
+      description: 高效内网穿透服务
+      link: https://www.natfrp.com/tunnel/
+      icon:
+        name: tabler:network
+        wrap: true
+        color: '#4994c4'
+      tags:
+        - name: 网络
+          color: sky
+    - title: 豌豆荚
+      description: 优质手机应用下载平台
+      link: https://www.wandoujia.com/
+      icon:
+        name: fluent-emoji-flat:pea-pod
+        wrap: true
+      tags:
+        - name: 应用商店
+          color: lime
     - title: 野草云
       description: 可靠的云服务器提供商
       link: https://my.yecaoyun.com/aff.php?aff=5523
@@ -168,16 +177,16 @@ services:
         color: '#3198f8'
       tags:
         - 服务器
-    - title: UCloud
-      description: 专业的云服务器与计算服务
+    - title: UCloud 云服务
+      description: 专业云服务器解决方案
       link: https://console.ucloud.cn/light-server/
       icon:
         url: https://console.ucloud.cn/favicon/favicon.ico
         wrap: true
       tags:
         - 服务器
-    - title: 腾讯云域名解析
-      description: 便捷的域名管理与解析服务
+    - title: 腾讯云域名
+      description: 便捷域名管理与解析
       link: https://console.cloud.tencent.com/cns
       icon:
         name: stash:domain-duotone
@@ -185,8 +194,8 @@ services:
         color: '#62dbe8'
       tags:
         - 服务器
-    - title: 又拍云
-      description: 大规模云存储与分发服务
+    - title: 又拍云存储
+      description: 大规模云存储服务
       link: https://console.upyun.com/dashboard/
       icon:
         url: https://www.upyun.com/static/favicon-32x32.png
@@ -195,92 +204,68 @@ services:
       tags:
         - name: 云存储
           color: cyan
-  资源与工具:
-    - title: Z-Library
-      description: 免费的电子书籍下载平台
-      link: https://z-lib.io/
-      icon:
-        name: mdi:library-outline
-        wrap: true
-        color: '#4bafcf'
-      tags:
-        - 书籍
-    - title: 豌豆荚
-      description: 手机应用下载与管理平台
-      link: https://www.wandoujia.com/
-      icon:
-        name: fluent-emoji-flat:pea-pod
-        wrap: true
-      tags:
-        - 应用商店
-    - title: SAKURA FRP
-      description: 高效的内网穿透服务
-      link: https://www.natfrp.com/tunnel/
-      icon:
-        name: tabler:network
-        wrap: true
-        color: '#4994c4'
-      tags:
-        - 网络
-    - title: 路由器后台
-      description: LTE路由器管理界面
-      link: http://192.168.2.1/
-      icon:
-        name: line-md:square
-        wrap: true
-        color: '#00bb9e'
-      tags:
-        - name: LTE
-          color: green
-  快捷键与博客:
-    - title: Windows & Mac 快捷键
-      description: Windows 和 Mac 快捷键大全
+    - title: 快捷键大全
+      description: Windows/Mac快捷键汇总
       link: https://blog.伴随.cn/9b1f.html
       icon:
         name: teenyicons:keyboard-outline
         wrap: true
         color: '#08749c'
       tags:
-        - 个人博客
+        - name: 个人博客
+          color: violet
         - 私有部署
-    - title: IDEA 快捷键
-      description: IntelliJ IDEA 快捷键参考
+    - title: IDEA快捷键
+      description: IntelliJ IDEA快捷键指南
       link: https://blog.伴随.cn/dfd4.html
       icon:
         name: skill-icons:idea-light
         wrap: true
       tags:
-        - 个人博客
+        - name: 个人博客
+          color: violet
         - 私有部署
-    - title: Tampermonkey
-      description: 油猴脚本管理与运行平台
+    - title: 油猴脚本
+      description: 丰富的用户脚本资源
       link: https://greasyfork.org/zh-CN/scripts
       icon:
         name: simple-icons:tampermonkey
         wrap: true
         background: '#ffffff'
       tags:
-        - 脚本
-  网站部署:
-    - title: Vercel
+        - name: 脚本
+          color: indigo
+  影音:
+    - title: LibreTV
+      description: 免费在线视频搜索与播放
+      link: https://tv.伴随.cn
+      icon:
+        name: icon-park:tv-one
+        wrap: true
+      tags:
+        - 影音
+        - 私有部署
+  开发工具:
+    - title: Vercel 平台
       description: 快速部署静态网站与无服务器应用
       link: https://vercel.com/
       icon:
         name: skill-icons:vercel-dark
         wrap: true
       tags:
-        - 静态网站部署
-    - title: Kinsta
-      description: 高性能静态网站托管平台
+        - name: 静态网站部署
+          color: lime
+    - title: Kinsta 平台
+      description: 高性能静态网站与应用部署
       link: https://my.kinsta.com/
       icon:
         url: https://raw.githubusercontent.com/chendada00/mafl-conf/refs/heads/main/mafl/kinsta.ico
         wrap: true
       tags:
-        - 静态网站部署
-  编程工具:
-    - title: IT-TOOLS
-      description: 实用的 IT 工具集合
+        - name: 静态网站部署
+          color: lime
+    - title: IT工具集
+      description: 实用的IT开发工具合集
       link: https://tools.伴随.cn
       icon:
         name: mynaui:tool
@@ -288,8 +273,8 @@ services:
       tags:
         - 开发工具
         - 私有部署
-    - title: Simple Mind Map
-      description: 简单强大的 Web 思维导图工具
+    - title: 简易思维导图
+      description: 轻量级在线思维导图工具
       link: https://mind.伴随.cn
       icon:
         name: i-icon-park-outline:mind-mapping
@@ -298,6 +283,25 @@ services:
       tags:
         - 开发工具
         - 私有部署
+    - title: Iconify 图标库
+      description: 丰富的图标集与管理工具
+      link: https://icon-sets.iconify.design/
+      icon:
+        name: line-md:iconify2-static
+        wrap: true
+        color: '#0066c4'
+      tags:
+        - name: 图标库
+          color: rose
+    - title: 阿里巴巴图标库
+      description: 高质量矢量图标资源
+      link: https://www.iconfont.cn/
+      icon:
+        url: https://img.alicdn.com/imgextra/i1/O1CN01asLYeX1WhbsyEZn5u_!!6000000002820-55-tps-56-56.svg
+        wrap: true
+      tags:
+        - name: 图标库
+          color: rose
     - title: Mafl 配置编辑
       description: 在线编辑 Mafl 配置文件
       link: https://github.dev/chendada00/mafl-conf/
@@ -306,8 +310,8 @@ services:
         wrap: true
       tags:
         - GitHub
-    - title: GitHub 加速
-      description: 加速 GitHub 文件下载与访问
+    - title: GitHub 加速器
+      description: 提升 GitHub 访问与下载速度
       link: https://gh-proxy.com/
       icon:
         name: i-line-md:github-loop
@@ -315,224 +319,29 @@ services:
       tags:
         - GitHub
     - title: JSONBin
-      description: 云端存储与管理 JSON 数据
+      description: 云端 JSON 数据存储与管理
       link: https://jsonbin.io/app/bins
       icon:
         name: picon:json
         wrap: true
         color: "#2c6dee"
       tags:
-        - 接口
-        - 数据存储
-  图标与设计:
-    - title: Iconify
-      description: 丰富的图标集与管理工具
-      link: https://icon-sets.iconify.design/
+        - name: 接口
+          color: lime
+  远程控制:
+    - title: AirDroid 远程
+      description: 网页端控制安卓设备
+      link: https://web.airdroid.com/
       icon:
-        name: line-md:iconify2-static
+        name: arcticons:airdroid
         wrap: true
-        color: '#0066c4'
+        color: "#f47a90"
       tags:
-        - 图标库
-    - title: Iconfont
-      description: 阿里巴巴矢量图标库
-      link: https://www.iconfont.cn/
-      icon:
-        url: https://img.alicdn.com/imgextra/i4/O1CN01Z5paLz1O0zuCC7osS_!!6000000001644-55-tps-83-82.svg
-        wrap: true
-      tags:
-        - 图标库
-  在线代码运行:
-    - title: PHP 在线运行
-      description: 在线编写与运行 PHP 代码
-      link: https://tools.qzxdp.cn/runphp
-      icon:
-        name: hugeicons:php
-        wrap: true
-        color: '#777BB4'
-      tags:
-        - 在线运行代码
-    - title: Python3 在线运行
-      description: 在线运行 Python3 代码
-      link: https://tools.qzxdp.cn/runpy3
-      icon:
-        name: logos:python
-        wrap: true
-      tags:
-        - 在线运行代码
-    - title: Python2 在线运行
-      description: 在线运行 Python2 代码
-      link: https://tools.qzxdp.cn/runpy2
-      icon:
-        name: logos:python
-        wrap: true
-      tags:
-        - 在线运行代码
-    - title: Java 在线运行
-      description: 在线编写与运行 Java 代码
-      link: https://tools.qzxdp.cn/runjava
-      icon:
-        name: hugeicons:java
-        wrap: true
-        color: '#007396'
-      tags:
-        - 在线运行代码
-    - title: C 在线运行
-      description: 在线运行 C 语言代码
-      link: https://tools.qzxdp.cn/runc
-      icon:
-        name: tabler:brand-cpp
-        wrap: true
-        color: '#A8B9CC'
-      tags:
-        - 在线运行代码
-    - title: C++ 在线运行
-      description: 在线运行 C++ 代码
-      link: https://tools.qzxdp.cn/runccc
-      icon:
-        name: tabler:brand-cpp
-        wrap: true
-        color: '#00599C'
-      tags:
-        - 在线运行代码
-    - title: C# 在线运行
-      description: 在线运行 C# 代码
-      link: https://tools.qzxdp.cn/runnet
-      icon:
-        name: skill-icons:dotnet
-        wrap: true
-      tags:
-        - 在线运行代码
-    - title: Bash 在线运行
-      description: 在线运行 Bash 脚本
-      link: https://tools.qzxdp.cn/runbash
-      icon:
-        name: devicon:bash
-        wrap: true
-        color: '#288ec8'
-      tags:
-        - 在线运行代码
-    - title: Go 在线运行
-      description: 在线运行 Go 语言代码
-      link: https://tools.qzxdp.cn/rungo
-      icon:
-        name: devicon:go-wordmark
-        wrap: true
-      tags:
-        - 在线运行代码
-    - title: Lua 在线运行
-      description: 在线运行 Lua 代码
-      link: https://tools.qzxdp.cn/runlua
-      icon:
-        name: devicon:lua
-        wrap: true
-      tags:
-        - 在线运行代码
-    - title: Javascript 在线运行
-      description: 在线运行 Javascript 代码
-      link: https://tools.qzxdp.cn/runjs
-      icon:
-        name: skill-icons:javascript
-        wrap: true
-      tags:
-        - 在线运行代码
-    - title: TypeScript 在线运行
-      description: 在线运行 TypeScript 代码
-      link: https://tools.qzxdp.cn/runts
-      icon:
-        name: skill-icons:typescript
-        wrap: true
-      tags:
-        - 在线运行代码
-  影音:
-    - title: LibreTV
-      description: 免费在线视频搜索与观看
-      link: https://tv.伴随.cn
-      icon:
-        name: icon-park:tv-one
-        wrap: true
-      tags:
-        - 影音
-        - 私有部署
-  游戏与账号交易:
-    - title: QQ飞车补丁
-      description: QQ飞车官方补丁下载
-      link: https://speed.qq.com/web201503/page/download.shtml#patch_area
-      icon:
-        url: https://raw.githubusercontent.com/chendada00/mafl-conf/refs/heads/main/mafl/qqfeiche.ico
-        wrap: true
-      tags:
-        - 游戏
-    - title: 阿千游戏
-      description: 安全可靠的游戏账号交易平台
-      link: https://aqianyouxi.com/
-      icon:
-        url: https://raw.githubusercontent.com/chendada00/mafl-conf/refs/heads/main/mafl/aqian.jpg
-        wrap: true
-      tags:
-        - 游戏账号
-    - title: 桃小黑
-      description: 专业的游戏账号交易服务
-      link: https://txhds.com/
-      icon:
-        url: https://raw.githubusercontent.com/chendada00/mafl-conf/refs/heads/main/mafl/txh.ico
-        wrap: true
-      tags:
-        - 游戏账号
-    - title: 螃蟹账号交易
-      description: 便捷的游戏账号买卖平台
-      link: https://www.pxb7.com/
-      icon:
-        url: https://raw.githubusercontent.com/chendada00/mafl-conf/refs/heads/main/mafl/pangxie.ico
-        wrap: true
-      tags:
-        - 游戏账号
-  娱乐:
-    - title: 资源避难所
-      description: 公益性游戏资源分享平台
-      link: https://www.flysheep6.com/
-      icon:
-        name: noto:video-game
-        wrap: true
-      tags:
-        - 破解
-    - title: 人生重开模拟器
-      description: 趣味在线人生模拟游戏
-      link: https://liferestart.syaro.io/public/index.html
-      icon:
-        name: fluent-color:people-team-20
-        wrap: true
-      tags:
-        - 小游戏
-    - title: 小霸王
-      description: 经典复古小游戏合集
-      link: https://www.yikm.net/
-      icon:
-        name: streamline-emojis:mushroom
-        wrap: true
-      tags:
-        - 小游戏
-    - title: 球归色条
-      description: 考验反应力的趣味游戏
-      link: www.looptap.top
-      icon:
-        name: line-md:circle-twotone
-        wrap: true
-        color: '#ef5764'
-      tags:
-        - 小游戏
-  社区与论坛:
-    - title: 大佬论坛
-      description: 十年之约技术交流社区
-      link: https://www.dalao.net/
-      icon:
-        name: fxemoji:smiletongue
-        wrap: true
-      tags:
-        - 论坛
+        - name: 远程控制
+          color: purple
   文档:
     - title: Mafl 文档
-      description: Mafl 导航网站官方文档
+      description: Mafl 导航站官方文档
       link: https://mafl.hywax.space/
       icon:
         url: https://raw.githubusercontent.com/chendada00/mafl-conf/refs/heads/main/mafl/mafl.svg
@@ -548,24 +357,24 @@ services:
         wrap: true
       tags:
         - 文档
-    - title: 必应每日一图
-      description: 必应壁纸官方 GitHub 仓库
+    - title: 必应壁纸仓库
+      description: 必应每日一图官方存储库
       link: https://github.com/androidmumo/bing
       icon:
         name: i-line-md:github-loop
         wrap: true
       tags:
         - GitHub
-    - title: GPT_API_free
-      description: 免费 GPT API（200 次限制）
+    - title: GPT API Free
+      description: 免费 GPT API，200次请求限制
       link: https://github.com/chatanywhere/GPT_API_free
       icon:
         name: i-line-md:github-loop
         wrap: true
       tags:
         - GitHub
-    - title: 安知鱼主题文档
-      description: Hexo 安知鱼主题官方文档
+    - title: 安知鱼主题
+      description: Hexo 博客主题文档
       link: https://docs.anheyu.com/
       icon:
         name: icon-park-twotone:theme
@@ -573,9 +382,98 @@ services:
         color: '#c5e7ff'
       tags:
         - 文档
+  娱乐:
+    - title: 资源避难所
+      description: 公益性游戏资源分享平台
+      link: https://www.flysheep6.com/
+      icon:
+        name: noto:video-game
+        wrap: true
+      tags:
+        - name: 破解
+          color: violet
+    - title: 人生重开
+      description: 有趣的在线人生模拟游戏
+      link: https://liferestart.syaro.io/public/index.html
+      icon:
+        name: fluent-color:people-team-20
+        wrap: true
+      tags:
+        - 小游戏
+    - title: 小霸王游戏
+      description: 经典童年游戏合集
+      link: https://www.yikm.net/
+      icon:
+        name: streamline-emojis:mushroom
+        wrap: true
+      tags:
+        - 小游戏
+    - title: 球归色条
+      description: 挑战反应速度的趣味游戏
+      link: www.looptap.top
+      icon:
+        name: line-md:circle-twotone
+        wrap: true
+        color: '#ef5764'
+      tags:
+        - 小游戏
+    - title: 大佬论坛
+      description: 十年之约技术交流社区
+      link: https://www.dalao.net/
+      icon:
+        name: fxemoji:smiletongue
+        wrap: true
+      tags:
+        - name: 论坛
+          color: rose
+  在线工具:
+    - title: 文件格式转换
+      description: 多格式文件转换工具
+      link: https://convertio.co/zh/
+      icon:
+        name: simple-icons:convertio
+        wrap: true
+        color: '#ff3731'
+  飞车:
+    - title: QQ飞车补丁
+      description: 官方补丁下载中心
+      link: https://speed.qq.com/web201503/page/download.shtml#patch_area
+      icon:
+        url: https://raw.githubusercontent.com/chendada00/mafl-conf/refs/heads/main/mafl/qqfeiche.ico
+        wrap: true
+      tags:
+        - name: 游戏
+          color: violet
+    - title: 阿千游戏
+      description: 游戏账号交易平台
+      link: https://aqianyouxi.com/
+      icon:
+        url: https://raw.githubusercontent.com/chendada00/mafl-conf/refs/heads/main/mafl/aqian.jpg
+        wrap: true
+      tags:
+        - name: 账号出售
+          color: cyan
+    - title: 桃小黑交易
+      description: 安全游戏账号交易
+      link: https://txhds.com/
+      icon:
+        url: https://raw.githubusercontent.com/chendada00/mafl-conf/refs/heads/main/mafl/txh.ico
+        wrap: true
+      tags:
+        - name: 账号出售
+          color: cyan
+    - title: 螃蟹交易
+      description: 专业游戏账号交易
+      link: https://www.pxb7.com/
+      icon:
+        url: https://raw.githubusercontent.com/chendada00/mafl-conf/refs/heads/main/mafl/pangxie.ico
+        wrap: true
+      tags:
+        - name: 账号出售
+          color: cyan
   AI:
-    - title: Grok
-      description: xAI 智能助手，解答宇宙难题
+    - title: Grok AI
+      description: 你的宇宙探索助手
       link: https://grok.com/
       icon:
         url: https://raw.githubusercontent.com/chendada00/mafl-conf/refs/heads/main/mafl/grok.svg
@@ -583,8 +481,8 @@ services:
         background: '#ffffff'
       tags:
         - AI
-    - title: DeepSeek
-      description: 高效的 AI 对话与代码生成
+    - title: DeepSeek AI
+      description: 探索未知的智能助手
       link: https://chat.deepseek.com/
       icon:
         name: arcticons:deepseek
@@ -593,7 +491,7 @@ services:
       tags:
         - AI
     - title: ChatGPT
-      description: OpenAI 智能对话与编程助手
+      description: OpenAI 智能对话模型
       link: https://chat.openai.com/
       icon:
         name: i-hugeicons:chat-gpt
@@ -603,7 +501,7 @@ services:
       tags:
         - AI
     - title: Perplexity AI
-      description: 智能搜索引擎与信息聚合
+      description: 智能搜索与信息聚合
       link: https://www.perplexity.ai/
       icon:
         name: i-simple-icons:perplexity
@@ -612,7 +510,7 @@ services:
       tags:
         - AI
     - title: 文心一言
-      description: 百度 AI 对话与内容生成
+      description: 百度智能对话平台
       link: https://yiyan.baidu.com/
       icon:
         wrap: true
@@ -620,7 +518,7 @@ services:
       tags:
         - AI
     - title: 通义千问
-      description: 阿里 AI 助手，智能问答
+      description: 阿里智能对话助手
       link: https://tongyi.aliyun.com/qianwen/
       icon:
         wrap: true
@@ -628,7 +526,7 @@ services:
       tags:
         - AI
     - title: Dream Machine
-      description: AI 驱动的高质量视频生成
+      description: AI驱动的视频生成工具
       link: https://lumalabs.ai/
       icon:
         name: i-tabler:video
@@ -637,18 +535,8 @@ services:
       tags:
         - AI
         - 视频生成
-  实用工具:
-    - title: 文件转换器
-      description: 支持多种格式的在线转换
-      link: https://convertio.co/zh/
-      icon:
-        name: simple-icons:convertio
-        wrap: true
-        color: '#ff3731'
-      tags:
-        - 格式转换
+  服务:
     - type: openweathermap
-      description: 实时天气查询服务
       options:
         lat: 40.815482
         lon: 111.717973
@@ -658,57 +546,148 @@ services:
       tags:
         - 服务
     - type: ip-api
-      description: 查询 IP 地址与地理位置
       options:
         flagIcon: true
       icon:
         name: oui:token-ip
       tags:
         - 服务
-  代理服务:
+  在线编译器:
+    - title: PHP 在线
+      description: 在线运行与调试 PHP 代码
+      link: https://tools.qzxdp.cn/runphp
+      icon:
+        name: hugeicons:php
+        wrap: true
+        color: '#777BB4'
+      tags:
+        - 在线运行代码
+    - title: Python3 在线
+      description: 在线运行 Python3 代码
+      link: https://tools.qzxdp.cn/runpy3
+      icon:
+        name: logos:python
+        wrap: true
+      tags:
+        - 在线运行代码
+    - title: Python2 在线
+      description: 在线运行 Python2 代码
+      link: https://tools.qzxdp.cn/runpy2
+      icon:
+        name: logos:python
+        wrap: true
+      tags:
+        - 在线运行代码
+    - title: Java 在线
+      description: 在线运行与调试 Java 代码
+      link: https://tools.qzxdp.cn/runjava
+      icon:
+        name: hugeicons:java
+        wrap: true
+        color: '#007396'
+      tags:
+        - 在线运行代码
+    - title: C 在线
+      description: 在线运行与调试 C 代码
+      link: https://tools.qzxdp.cn/runc
+      icon:
+        name: tabler:brand-cpp
+        wrap: true
+        color: '#A8B9CC'
+      tags:
+        - 在线运行代码
+    - title: C++ 在线
+      description: 在线运行与调试 C++ 代码
+      link: https://tools.qzxdp.cn/runccc
+      icon:
+        name: tabler:brand-cpp
+        wrap: true
+        color: '#00599C'
+      tags:
+        - 在线运行代码
+    - title: C# 在线
+      description: 在线运行与调试 C# 代码
+      link: https://tools.qzxdp.cn/runnet
+      icon:
+        name: skill-icons:dotnet
+        wrap: true
+      tags:
+        - 在线运行代码
+    - title: Bash 在线
+      description: 在线运行 Bash 脚本
+      link: https://tools.qzxdp.cn/runbash
+      icon:
+        name: devicon:bash
+        wrap: true
+        color: '#288ec8'
+      tags:
+        - 在线运行代码
+    - title: Go 在线
+      description: 在线运行与调试 Go 代码
+      link: https://tools.qzxdp.cn/rungo
+      icon:
+        name: devicon:go-wordmark
+        wrap: true
+      tags:
+        - 在线运行代码
+    - title: Lua 在线
+      description: 在线运行与调试 Lua 代码
+      link: https://tools.qzxdp.cn/runlua
+      icon:
+        name: devicon:lua
+        wrap: true
+      tags:
+        - 在线运行代码
+    - title: Javascript 在线
+      description: 在线运行与调试 Javascript 代码
+      link: https://tools.qzxdp.cn/runjs
+      icon:
+        name: skill-icons:javascript
+        wrap: true
+      tags:
+        - 在线运行代码
+    - title: TypeScript 在线
+      description: 在线运行与调试 TypeScript 代码
+      link: https://tools.qzxdp.cn/runts
+      icon:
+        name: skill-icons:typescript
+        wrap: true
+      tags:
+        - 在线运行代码
+  ✈️:
     - title: 三分机场
-      description: 高速稳定的网络代理服务
+      description: 高速稳定的机场服务
       link: https://xn--ehq00hgtfdmt.xyz/register?code=E22m8qzS
       icon:
         name: entypo:aircraft
         wrap: true
         color: '#f5abb9'
       tags:
-        - 代理服务
+        - 机场
     - title: 一元机场
-      description: 经济实惠的代理服务
+      description: 经济实惠的机场服务
       link: https://xn--4gq62f52gdss.ink/#/register?code=Gx4y9oQu
       icon:
         name: entypo:aircraft
         wrap: true
         color: '#0665d0'
       tags:
-        - 代理服务
+        - 机场
     - title: 亏本机场
-      description: 高性价比的网络代理
+      description: 高性价比机场服务
       link: https://xn--7kq24s4ynvb.site/#/register?code=eDzZKnqg
       icon:
         name: entypo:aircraft
         wrap: true
         color: '#319795'
       tags:
-        - 代理服务
+        - 机场
     - title: IKUUU 机场
-      description: 提供免费的代理服务
+      description: 免费高速机场服务
       link: https://ikuuu.one/auth/register?code=RKiB
       icon:
         name: entypo:aircraft
         wrap: true
         color: '#7c6d53'
       tags:
-        - 代理服务
-  远程控制:
-    - title: AirDroid
-      description: 安卓手机远程控制工具
-      link: https://web.airdroid.com/
-      icon:
-        name: arcticons:airdroid
-        wrap: true
-        color: "#f47a90"
-      tags:
-        - 远程控制
+        - 机场
