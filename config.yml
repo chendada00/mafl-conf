@@ -231,6 +231,7 @@ services:
       icon:
         name: simple-icons:tampermonkey
         wrap: true
+        color: '#000000'
         background: '#ffffff'
       tags:
         - name: 脚本
