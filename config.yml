@@ -93,7 +93,7 @@ services:
         - 私有部署
     - title: 每日壁纸
       description: 每日精选必应高清壁纸
-      link: https://bing.ctext.top/
+      link: https://bing.伴随.cn
       icon:
         name: lucide:wallpaper
         wrap: true
