@@ -66,31 +66,31 @@ services:
         number: 3600
       tags:
         - 私有部署
-    - title: 宝塔面板
-      description: 高效的服务器管理工具
-      link: https://bt.ctext.top/admin
-      icon:
-        url: https://raw.githubusercontent.com/chendada00/mafl-conf/refs/heads/main/mafl/bt.ico
-        wrap: true
-        color: '#2b74df'
-      status:
-        enabled: true
-        number: 3600
-      tags:
-        - 服务器
-        - 私有部署
-    - title: 哪吒探针
-      description: 实时监控服务器状态
-      link: https://nezha.ctext.top/
-      icon:
-        url: https://raw.githubusercontent.com/chendada00/mafl-conf/refs/heads/main/mafl/nezha.svg
-        wrap: true
-      status:
-        enabled: true
-        number: 3600
-      tags:
-        - 服务器
-        - 私有部署
+    # - title: 宝塔面板
+    #   description: 高效的服务器管理工具
+    #   link: https://bt.ctext.top/admin
+    #   icon:
+    #     url: https://raw.githubusercontent.com/chendada00/mafl-conf/refs/heads/main/mafl/bt.ico
+    #     wrap: true
+    #     color: '#2b74df'
+    #   status:
+    #     enabled: true
+    #     number: 3600
+    #   tags:
+    #     - 服务器
+    #     - 私有部署
+    # - title: 哪吒探针
+    #   description: 实时监控服务器状态
+    #   link: https://nezha.ctext.top/
+    #   icon:
+    #     url: https://raw.githubusercontent.com/chendada00/mafl-conf/refs/heads/main/mafl/nezha.svg
+    #     wrap: true
+    #   status:
+    #     enabled: true
+    #     number: 3600
+    #   tags:
+    #     - 服务器
+    #     - 私有部署
     - title: 每日壁纸
       description: 每日精选必应高清壁纸
       link: https://bing.伴随.cn
@@ -139,16 +139,7 @@ services:
       tags:
         - name: LTE
           color: green
-    - title: Z-Library
-      description: 海量电子书下载平台
-      link: https://z-lib.io/
-      icon:
-        name: mdi:library-outline
-        wrap: true
-        color: '#4bafcf'
-      tags:
-        - name: 书籍
-          color: amber
+
     - title: Sakura FRP
       description: 高效内网穿透服务
       link: https://www.natfrp.com/tunnel/
@@ -204,27 +195,7 @@ services:
       tags:
         - name: 云存储
           color: cyan
-    - title: 快捷键大全
-      description: Windows/Mac快捷键汇总
-      link: https://blog.伴随.cn/9b1f.html
-      icon:
-        name: teenyicons:keyboard-outline
-        wrap: true
-        color: '#08749c'
-      tags:
-        - name: 个人博客
-          color: violet
-        - 私有部署
-    - title: IDEA快捷键
-      description: IntelliJ IDEA快捷键指南
-      link: https://blog.伴随.cn/dfd4.html
-      icon:
-        name: skill-icons:idea-light
-        wrap: true
-      tags:
-        - name: 个人博客
-          color: violet
-        - 私有部署
+
     - title: 油猴脚本
       description: 丰富的用户脚本资源
       link: https://greasyfork.org/zh-CN/scripts
@@ -274,16 +245,7 @@ services:
       tags:
         - 开发工具
         - 私有部署
-    - title: 简易思维导图
-      description: 轻量级在线思维导图工具
-      link: https://mind.伴随.cn
-      icon:
-        name: i-icon-park-outline:mind-mapping
-        wrap: true
-        color: '#3cb3aa'
-      tags:
-        - 开发工具
-        - 私有部署
+
     - title: Iconify 图标库
       description: 丰富的图标集与管理工具
       link: https://icon-sets.iconify.design/
@@ -329,6 +291,56 @@ services:
       tags:
         - name: 接口
           color: lime
+  工具: 
+    - title: Drawnix 
+      description: 开源白板工具（SaaS），一体化白板，包含思维导图、流程图、自由画等
+      link: https://drawnix.com/
+      icon:
+        url: https://raw.githubusercontent.com/chendada00/mafl-conf/refs/heads/main/mafl/drawnix.ico
+        wrap: true
+      tags:
+        - name: 白板工具
+          color: lime
+    - title: 简易思维导图
+      description: 轻量级在线思维导图工具
+      link: https://mind.伴随.cn
+      icon:
+        name: i-icon-park-outline:mind-mapping
+        wrap: true
+        color: '#3cb3aa'
+      tags:
+        - 私有部署
+    - title: Z-Library
+      description: 海量电子书下载平台
+      link: https://z-lib.io/
+      icon:
+        name: mdi:library-outline
+        wrap: true
+        color: '#4bafcf'
+      tags:
+        - name: 书籍
+          color: amber
+    - title: 快捷键大全
+      description: Windows/Mac快捷键汇总
+      link: https://blog.伴随.cn/9b1f.html
+      icon:
+        name: teenyicons:keyboard-outline
+        wrap: true
+        color: '#08749c'
+      tags:
+        - name: 个人博客
+          color: violet
+        - 私有部署
+    - title: IDEA快捷键
+      description: IntelliJ IDEA快捷键指南
+      link: https://blog.伴随.cn/dfd4.html
+      icon:
+        name: skill-icons:idea-light
+        wrap: true
+      tags:
+        - name: 个人博客
+          color: violet
+        - 私有部署
   远程控制:
     - title: AirDroid 远程
       description: 网页端控制安卓设备
