@@ -207,16 +207,58 @@ services:
       tags:
         - name: 脚本
           color: indigo
-  影音:
-    - title: LibreTV
-      description: 免费在线视频搜索与播放
-      link: https://tv.伴随.cn
+
+  工具: 
+    - title: Drawnix 
+      description: 开源白板工具（SaaS），一体化白板，包含思维导图、流程图、自由画等
+      link: https://drawnix.com/
       icon:
-        name: icon-park:tv-one
+        url: https://raw.githubusercontent.com/chendada00/mafl-conf/refs/heads/main/mafl/drawnix.ico
         wrap: true
       tags:
-        - 影音
+        - name: 白板工具
+          color: lime
+    - title: 简易思维导图
+      description: 轻量级在线思维导图工具
+      link: https://mind.伴随.cn
+      icon:
+        name: i-icon-park-outline:mind-mapping
+        wrap: true
+        color: '#3cb3aa'
+      tags:
         - 私有部署
+    - title: Z-Library
+      description: 海量电子书下载平台
+      link: https://z-lib.io/
+      icon:
+        name: mdi:library-outline
+        wrap: true
+        color: '#4bafcf'
+      tags:
+        - name: 书籍
+          color: amber
+    - title: 快捷键大全
+      description: Windows/Mac快捷键汇总
+      link: https://blog.伴随.cn/9b1f.html
+      icon:
+        name: teenyicons:keyboard-outline
+        wrap: true
+        color: '#08749c'
+      tags:
+        - name: 个人博客
+          color: violet
+        - 私有部署
+    - title: IDEA快捷键
+      description: IntelliJ IDEA快捷键指南
+      link: https://blog.伴随.cn/dfd4.html
+      icon:
+        name: skill-icons:idea-light
+        wrap: true
+      tags:
+        - name: 个人博客
+          color: violet
+        - 私有部署
+
   开发工具:
     - title: Vercel 平台
       description: 快速部署静态网站与无服务器应用
@@ -291,55 +333,16 @@ services:
       tags:
         - name: 接口
           color: lime
-  工具: 
-    - title: Drawnix 
-      description: 开源白板工具（SaaS），一体化白板，包含思维导图、流程图、自由画等
-      link: https://drawnix.com/
+
+  影音:
+    - title: LibreTV
+      description: 免费在线视频搜索与播放
+      link: https://tv.伴随.cn
       icon:
-        url: https://raw.githubusercontent.com/chendada00/mafl-conf/refs/heads/main/mafl/drawnix.ico
+        name: icon-park:tv-one
         wrap: true
       tags:
-        - name: 白板工具
-          color: lime
-    - title: 简易思维导图
-      description: 轻量级在线思维导图工具
-      link: https://mind.伴随.cn
-      icon:
-        name: i-icon-park-outline:mind-mapping
-        wrap: true
-        color: '#3cb3aa'
-      tags:
-        - 私有部署
-    - title: Z-Library
-      description: 海量电子书下载平台
-      link: https://z-lib.io/
-      icon:
-        name: mdi:library-outline
-        wrap: true
-        color: '#4bafcf'
-      tags:
-        - name: 书籍
-          color: amber
-    - title: 快捷键大全
-      description: Windows/Mac快捷键汇总
-      link: https://blog.伴随.cn/9b1f.html
-      icon:
-        name: teenyicons:keyboard-outline
-        wrap: true
-        color: '#08749c'
-      tags:
-        - name: 个人博客
-          color: violet
-        - 私有部署
-    - title: IDEA快捷键
-      description: IntelliJ IDEA快捷键指南
-      link: https://blog.伴随.cn/dfd4.html
-      icon:
-        name: skill-icons:idea-light
-        wrap: true
-      tags:
-        - name: 个人博客
-          color: violet
+        - 影音
         - 私有部署
   远程控制:
     - title: AirDroid 远程
