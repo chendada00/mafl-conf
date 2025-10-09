@@ -58,7 +58,7 @@ services:
       description: 一个美观、强大的在线静态博客管理器
       link: https://qexo.伴随.cn
       icon:
-        url: https://raw.githubusercontent.com/chendada00/mafl-conf/refs/heads/main/mafl/qexo.svg
+        url: https://raw.githubusercontent.com/chendada00/mafl-conf/refs/heads/main/mafl/qexo.png
         wrap: true
       status:
         enabled: true
